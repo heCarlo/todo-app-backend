@@ -18,8 +18,8 @@ import {
   import { CreateTodoSwagger } from './swagger/create-todo.swagger';
   import { ShowTodoSwagger } from './swagger/show-todo.swagger';
   import { UpdateTodoSwagger } from './swagger/update-todo.swagger';
-  import { BadRequestSwagger } from 'src/helpers/swagger/bad-request.swagger';
-  import { NotFoundSwagger } from 'src/helpers/swagger/not-found.swagger';
+  import { BadRequestSwagger } from './helpers/responsesSwagger/bad-request.swagger';
+  import { NotFoundSwagger } from './helpers/responsesSwagger/not-found.swagger';
   
   @Controller('api/v1/todos')
   @ApiTags('todos')
